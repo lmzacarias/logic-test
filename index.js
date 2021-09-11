@@ -12,7 +12,6 @@ function countLetters(text, subText) {
     textIndex.push(idx);
     idx = text.indexOf(subText, idx + 1);
   }
-
   return textIndex;
 }
 
